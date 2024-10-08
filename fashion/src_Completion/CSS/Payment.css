@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+.payment-page-container {
+    width: 40%;
+    margin: 0 auto;
+    min-height: 100vh;
+    padding-bottom: 100px;
+    font-family: "Noto Sans KR", sans-serif;
+  }
+  
+  .payment-page-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 100px;
+    text-align: center;
+  }
+  
+  .payment-page-subtitle {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 50px;
+  }
+  
+  .payment-order-info,
+  .payment-delivery-info,
+  .payment-request-info,
+  .payment-method-info,
+  .payment-summary-info {
+    border-bottom: 1px solid #8f8f8f;
+    margin-bottom: 50px;
+  }
+  
+  .payment-order-info h2,
+  .payment-delivery-info h2,
+  .payment-request-info h2,
+  .payment-method-info h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .payment-delivery-info h3{
+    font-size: 16px;
+  }
+  
+  .payment-order-item {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .payment-order-item-image-placeholder {
+    width: 60px;
+    height: 60px;
+    background-color: #f2f2f2;
+    margin-right: 20px;
+  }
+  
+  .payment-order-item-details {
+    flex: 1;
+  }
+  
+  .payment-order-item-name {
+    font-size: 14px;
+  }
+  
+  .payment-order-item-price {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .payment-input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  .payment-input-fields {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+
+  .payment-input-fieldes {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 40px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  .payment-method-info .payment-method-options {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+  
+  .payment-method-option {
+    width: 18%;
+    padding: 15px;
+    background-color: #f2f2f2;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .payment-method-option:hover {
+    background-color: #e2e2e2;
+  }
+  
+  .payment-summary-info {
+    margin-top: 20px;
+  }
+  
+  .payment-summary-item,
+  .payment-summary-total {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+  }
+  
+  .payment-summary-total {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .payment-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 120px;
+  }
+  
+  .payment-cancel-btn,
+  .payment-submit-btn {
+    width: 48%;
+    padding: 15px;
+    font-size: 16px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .payment-submit-btn:hover {
+    background-color: #999;
+  }
+  
+  .payment-cancel-btn {
+    background-color: #000000;
+  }
+  
+  .payment-cancel-btn:hover {
+    background-color: #333;
+  }
+
+  .payment-order-item-quantity{
+    font-size: 12px;
+  }
+
+  .payment-order-item-size{
+    font-size: 12px;
+  }
+
+  .add-address-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+  }
+  
+  .add-address-btn:hover {
+    background-color: #333;
+  }
+
+  .remove-item-btn {
+    background-color: transparent;
+    border: none;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .remove-item-btn:hover {
+    color: rgb(255, 44, 44);
+  }
+
+  /* 경고 메시지 스타일 */
+.error-message {
+  color: red;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
+/* 흔들리는 애니메이션 */
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: translateX(-5px); }
+  50% { transform: translateX(5px); }
+  75% { transform: translateX(-5px); }
+}
+
+/* 오류 상태에서 입력 필드의 경고 및 애니메이션 */
+.input-error {
+  border: 1px solid red;
+  animation: shake 0.3s;
+  color: red;
+}
+
+.input-error::placeholder {
+  color: red;
+}
+
+
+/* 주소 관련 입력 필드를 한 줄로 정렬 */
+.address-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.address-row {
+  display: flex;
+  align-items: center; /* 세로 방향 가운데 정렬 */
+  gap: 10px;
+}
+
+.payment-input-postcode {
+  width: 70%; /* 너비 조정 */
+}
+
+.search-address-btn {
+  padding: 10px 20px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  width: 120px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.search-address-btn:hover {
+  background-color: #333;
+}
+
+.payment-input-readonly {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  background-color: #f9f9f9;
+}

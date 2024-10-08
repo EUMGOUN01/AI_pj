@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+.storemanage-container {
+    margin-left: 240px;
+    padding: 50px;
+    font-family: 'Noto Sans KR', sans-serif;
+    padding-bottom: 100px;
+    margin-top: 0px;
+}
+
+.storemanage-title {
+    font-size: 28px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.storemanage-welcome-text {
+    margin-bottom: 20px;
+    color: #919191;
+}
+
+.storemanage-search-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.storemanage-dropdown {
+    padding: 5px;
+    font-size: 14px;
+    width: 350px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.custom-date-input {
+    width: 100px;
+    padding: 5px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    height: 35px;
+}
+
+.storemanage-search-buttons {
+    padding: 6px 14px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.storemanage-search-buttons:hover {
+    background-color: #333;
+}
+
+.storemanage-search-button {
+    padding: 6px 14px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.storemanage-search-button:hover {
+    background-color: #333;
+}
+
+.storemanage-search-title {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.storemanage-sales-charts {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 100px;
+}
+
+.storemanage-sales-chart {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.storemanage-single-chart {
+    display: flex;
+    justify-content: center;
+}
+
+.storemanage-single-chart .storemanage-sales-chart {
+    width: 80%;
+    height: 600px;
+}
+
+.react-datepicker-wrapper {
+    width: 150px !important;
+}
+  
+.react-datepicker__input-container input {
+    width: 150px !important;
+    padding: 8px !important;
+    font-size: 14px !important;
+    border: 1px solid #ccc !important;
+    border-radius: 3px !important;
+}
+
+.storemanage-dropdown {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+    margin: 0 5px;
+    width: 100px;
+}
+
+.storemanage-dropdown.wide {
+    width: 250px;
+}
+
+.storemanage-dropdown.month-input {
+    width: 65px;
+}
+
+.circle-checkbox {
+    appearance: none;
+    border: 2px solid #000;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    position: relative;
+    cursor: pointer;
+}
+
+.circle-checkbox:checked::before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: #4a7aff;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.product-item {
+    display: inline-block;
+    width: 230px;
+    margin: 20px;
+    text-align: center;
+}
+
+.product-image-placeholder {
+    width: 230px;
+    height: 230px;
+    background-color: #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.product-name {
+    font-size: 14px;
+    color: #333;
+}
+
+.store-name{
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.related-item-title{
+    margin-top: 30px;
+    font-size: 20px;
+
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+}
+
+.related-items-list {
+    display: flex;
+    justify-content: center;
+  }

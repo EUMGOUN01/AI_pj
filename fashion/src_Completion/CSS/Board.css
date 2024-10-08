@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+.qna-board-container {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.qna-board-title {
+  margin-top: 100px;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.qna-board-description {
+  margin: 5px 0;
+}
+
+.qna-board-notice {
+  color: #888;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.qna-board-button-group {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.qna-board-button-group button {
+  margin: 0 10px;
+  padding: 10px 30px;
+  border: 1px solid #000;
+  background-color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.qna-board-button-group button:hover {
+  background-color: #000000;
+  color: #fff;
+}
+
+.qna-board-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 40px;
+  margin-bottom: 25px;
+}
+
+.qna-board-table th, .qna-board-table td {
+  border: none;
+  padding: 6px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.qna-board-table th {
+  background-color: #000;
+  color: #fff;
+  border-bottom: 2px solid #000;
+}
+
+.qna-board-table tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.qna-board-actions {
+  margin-top: 30px;
+  text-align: right;
+}
+
+.qna-board-actions button {
+  margin-left: 10px;
+  padding: 8px 30px;
+  color: #fff;
+  background-color: #000000;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.qna-board-actions button:hover {
+  background-color: #464646;
+}
+
+/* 페이지네이션 스타일 */
+.qna-board-pagination {
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  margin-top: -20px;
+  margin-bottom: 100px;
+}
+
+.pagination-btn, .prev-next-btn {
+  margin: 0 5px;
+  padding: 4px 8px;
+  border: 1px solid #474747;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.pagination-btn.active, .pagination-btn:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.prev-next-btn[disabled] {
+  cursor: not-allowed;
+  opacity: 0.5;
+}

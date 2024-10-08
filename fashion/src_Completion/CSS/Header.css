@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px 40px; /* 패딩을 증가시켜 배경 높이를 더 키움 */
+  background-color: #000;
+  color: white;
+  height: 120px; /* 배경의 고정된 높이 설정 */
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.header-left {
+  display: flex;
+  flex-direction: column;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.header-left .logo {
+  font-size: 32px; /* 로고 글자 크기를 키움 */
+  font-weight: bold;
+  margin-bottom: 10px; /* 로고와 메뉴 사이에 간격 추가 */
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.sub-menu ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.sub-menu ul li {
+  margin-right: 20px; /* 메뉴 항목 간 간격 */
+}
+
+.sub-menu ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.sub-menu ul li a:hover {
+  text-decoration: underline;
+}
+
+.header-right ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.header-right ul li {
+  margin-left: 20px;
+}
+
+.header-right ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.header-right ul li a:hover {
+  text-decoration: underline;
+}

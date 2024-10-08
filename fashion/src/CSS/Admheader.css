@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+/* 기본 스타일 초기화 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans KR", sans-serif;
+}
+  
+body {
+    font-family: "Noto Sans KR", sans-serif;
+}
+  
+/* 좌측 사이드바 스타일 */
+.adm-sidebar {
+    width: 230px; /* 사이드바 너비 */
+    height: 100vh;
+    background-color: #000;
+    color: white;
+    padding: 20px;
+    position: fixed; /* 사이드바를 고정시킴 */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* 사이드바를 가장 앞에 보이게 */
+}
+  
+.adm-logo {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+  
+.adm-user-info {
+    margin-bottom: 10px;
+}
+
+.adm-username {
+    font-size: 22px; /* 원하는 크기로 조정 */
+  }
+
+/* 글자 크기 동일하게 */
+.adm-user-info p{
+    font-size: 16px;
+}
+
+.adm-user-site a {
+    color: white; /* 글자 색상을 흰색으로 설정 */
+    text-decoration: none; /* 밑줄 제거 */
+    font-size: 16px;
+    cursor: pointer; /* 클릭 가능하도록 포인터 변경 */
+    display: flex;
+    align-items: center; /* 아이콘과 텍스트 수직 정렬 */
+}
+
+.adm-user-site a:active {
+    color: gray; /* 클릭 시 회색으로 변경 */
+}
+  
+.adm-nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+}
+  
+.adm-nav ul li {
+    display: flex;
+    justify-content: space-between; /* 사이트 관리와 링크 간의 공간을 분배 */
+    align-items: center;
+    margin-bottom: 15px;
+}
+  
+.adm-nav ul li h5 {
+    flex-grow: 1; /* h5가 왼쪽에 고정되게 함 */
+    text-align: left; /* 왼쪽 정렬 */
+    margin-left: 0;
+    font-size: 20px;
+}
+
+.adm-nav ul li a {
+    flex-grow: 0;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    margin-left: -20px; /* 완전히 왼쪽으로 붙이기 */
+    padding-left: 0; /* 패딩도 제거 */
+}
+  
+.adm-nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.adm-text {
+    margin-top: 100px;
+    margin-bottom: 20px;
+    color: white; /* 글자 색상을 흰색으로 설정 */
+    text-decoration: none; /* 밑줄 제거 */
+    cursor: pointer; /* 클릭 가능하도록 포인터 변경 */
+}
+
+.adm-text:active {
+    color: gray; /* 클릭 시 회색으로 변경 */
+}
+
+/* 아이콘과 텍스트 사이에 간격 추가 */
+.icon-space {
+    margin-left: 8px; /* 아이콘과 텍스트 사이에 8px 간격 추가 */
+}

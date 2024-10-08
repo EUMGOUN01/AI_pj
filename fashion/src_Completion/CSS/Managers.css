@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+.managers-dashboard-container {
+  margin-left: 240px; /* 사이드바 너비(250px) + 여백(20px) */
+  padding: 50px; /* 본문 안의 패딩 */
+  font-family: 'Noto Sans KR', sans-serif;
+  padding-bottom: 120px; /* 밑 공간 추가 */
+  margin-top: 0px; /* 헤더와 본문 사이 간격 */
+}
+
+/* 상단 타이틀과 설명 */
+.managers-dashboard-title {
+  font-size: 28px;
+  margin-bottom: 10px; /* 타이틀과 아래 텍스트 간격 */
+  font-weight: bold;
+}
+
+.managers-dashboard-welcome-text {
+  margin-bottom: 20px;
+  color: #919191;
+}
+
+/* 주문 목록 테이블 스타일 */
+.managers-dashboard-order-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 5px;
+}
+
+.managers-dashboard-order-table th,
+.managers-dashboard-order-table td {
+  padding: 12px;
+  text-align: left;
+  border-top: 1px solid #ddd; /* 가로 테두리만 남김 */
+  border-bottom: 1px solid #ddd;
+}
+
+.managers-dashboard-order-table th {
+  background-color: #000000;
+  font-weight: bold;
+  text-align: center; /* 중앙 정렬 */
+  color: #ffffff;
+}
+
+.managers-dashboard-order-table td {
+  background-color: #fff;
+  font-size: 14px;
+  text-align: center; /* 데이터도 중앙 정렬 */
+}
+
+.managers-dashboard-order-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* 주문 목록 헤더 섹션 */
+.managers-dashboard-order-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* h2와 버튼들을 수직 가운데 정렬 */
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.managers-dashboard-order h2 {
+  margin: 0; /* 제목의 여백을 없앰 */
+  font-size: 22px;
+}
+
+.managers-dashboard-order-actions {
+  display: flex;
+  gap: 10px; /* 버튼 간격 추가 */
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.delete-button,
+.save-button,
+.cancel-button,
+.add-button {
+  background-color: #000000;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.save-button:hover {
+  background-color: #4d4d4d;
+}
+
+.delete-button:hover {
+  background-color: #f01f1f;
+}
+
+.managers-dashboard-order-table input {
+  text-align: center; /* 텍스트 중앙 정렬 */
+  margin: 0 auto; /* 입력 필드를 중앙에 배치 */
+  display: block; /* 블록 요소로 설정하여 중앙에 위치 */
+}
+

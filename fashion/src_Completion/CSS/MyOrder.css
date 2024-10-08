@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+.myorder-container {
+    width: 60%;
+    margin: 0 auto;
+    font-family: 'Noto Sans KR', sans-serif;
+    min-height: 100vh;
+    padding-bottom: 100px; /* 밑 공간 추가 */
+  }
+
+.myorder-title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 10px;
+}
+
+.myorder-subtitle {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 50px;
+  color: #888;
+}
+
+/* 유저 정보 섹션 */
+.myorder-user-info {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    padding: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background-color: #f9f9f9;
+    text-align: left; 
+}
+
+.myorder-avatar {
+  width: 60px;
+  height: 60px;
+  background-color: #000000;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.myorder-avatar svg {
+  color: #ffffff;
+}
+
+.myorder-no-orders {
+  font-size: 14px;
+  color: #555;
+  text-align: left;
+}
+
+.myorder-no-orders span {
+  color: #007bff;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* 검색 섹션 */
+.myorder-search-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.myorder-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+.date-picker-input {
+  width: 350px; /* 시작 날짜와 종료 날짜 입력 칸을 넓게 설정 */
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+.input-with-icon .myorder-input {
+  width: 450px; /* 시작 날짜와 종료 날짜 입력 칸만 넓게 설정 */
+}
+
+.product-name-input {
+  width: 300px; /* 원하는 상품명 입력 칸의 너비 설정 */
+}
+
+.myorder-search-btn {
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.myorder-search-btn:hover {
+  background-color: #555;
+}
+
+/* 테이블 섹션 */
+.myorder-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.myorder-table th, .myorder-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.myorder-table th {
+    background-color: #000; /* 헤더 배경색 검은색 */
+    color: #fff; /* 헤더 글자색 흰색 */
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+.myorder-table td {
+  font-size: 13px;
+  color: #555;
+}
+
+/* 제품 이미지 및 정보 */
+.myorder-product-info {
+  display: flex;
+  align-items: center;
+}
+
+.myorder-product-img-placeholder {
+  width: 50px;
+  height: 50px;
+  background-color: #ddd;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+.myorder-text p {
+  margin-top: -5px;
+  margin-bottom: 0px ;
+  text-align: left;
+}
+
+.myorder-more-btn-container {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px; /* 버튼 아래 공간 추가 */
+  }
+  
+
+.myorder-more-btn {
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 3px;
+}
+
+.myorder-more-btn:hover {
+  background-color: #444;
+}
+
+/* 주문/배송 내역 조회 및 목록 제목 */
+.myorder-section-header {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+.input-with-icon {
+  position: relative;
+  display: inline-block;
+  width: 180px;
+}
+
+.input-with-icon input {
+  width: 100%;
+  padding-right: 30px;
+}
+
+.calendar-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #888;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.react-datepicker__input-container input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.react-datepicker__day--highlighted {
+    background-color: rgba(211, 27, 58, 0.534);
+    color: black;
+  }
+  
+  .saturday {
+    color: blue !important;
+  }
+  
+  .sunday {
+    color: red !important;
+  }

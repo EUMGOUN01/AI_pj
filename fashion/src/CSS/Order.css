@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+.order-page-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.order-page-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 60px;
+}
+
+.order-page-subtitle {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 16px;
+    color: gray;
+}
+
+.order-page-items {
+    border-top: 1px solid #ddd;
+    margin-bottom: 30px;
+}
+
+.order-page-item {
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.order-page-item-shape {
+    width: 80px;
+    height: 80px;
+    background-color: #f0f0f0;
+    margin-right: 20px;
+    border-radius: 10px; 
+}
+
+.order-page-item-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.order-page-item-name {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.order-page-item-sub {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.order-page-item-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.order-page-item-quantity{
+    font-size: 12px;
+}
+
+.order-page-item-size{
+    font-size: 12px;
+}
+
+/* 주문 정보 */
+.order-page-info {
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.order-page-info-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.order-page-info-details p {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+/* 버튼 섹션 */
+.order-page-buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center; 
+    gap: 15px; 
+    border-top: 1px solid #ddd; 
+    padding-top: 20px; 
+}
+
+.order-page-main-button,
+.order-page-mypage-button {
+    background-color: black;
+    color: white;
+    padding: 15px 125px; 
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 3px;
+    margin-bottom: 150px;
+}
+
+.order-page-main-button:hover,
+.order-page-mypage-button:hover {
+    background-color: #333;
+}
+
+/* Order.css */
+.order-page-item-image {
+    width: 120px;  /* 이미지 너비 조정 */
+    height: 120px; /* 이미지 높이 조정 */
+    object-fit: cover; /* 이미지가 영역에 맞게 잘리도록 설정 */
+    border-radius: 0px; /* 모서리를 둥글게 처리 */
+    margin-right: 30px;
+  }

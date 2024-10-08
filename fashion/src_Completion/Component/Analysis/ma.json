@@ -1,0 +1,55 @@
+{
+    "analysisId": null,
+    "recommendedProducts": [
+        {
+            "productId": 367,
+            "name": "Diva Fur CD_",
+            "info": "리볼드",
+            "price": 34,
+            "imagePath": "/images/니트웨어/367.jpg"
+        },
+        {
+            "productId": 614,
+            "name": "Viola Mini Dress - Brown",
+            "info": "썸웨어버터",
+            "price": 45,
+            "imagePath": "/images/드레스/614.jpg"
+        },
+        {
+            "productId": 2682,
+            "name": "Creamy Beige Boucle Wool Blazer",
+            "info": "마론에디션",
+            "price": 75,
+            "imagePath": "/images/재킷/2682.jpg"
+        },
+        {
+            "productId": 3180,
+            "name": "에고 롱슬리브 바디수트 - 블랙",
+            "info": "배드블러드",
+            "price": 85,
+            "imagePath": "/images/점프수트/3180.jpg"
+        },
+        {
+            "productId": 4169,
+            "name": "Slim belt raglan sleeve trench coat_Beige",
+            "info": "틸아이다이",
+            "price": 93,
+            "imagePath": "/images/코트/4169.jpg"
+        }
+    ],
+    "styleindex": [
+        {
+            "attributeId": 2,
+            "nameKo": "페미니"
+        },
+        {
+            "attributeId": 5,
+            "nameKo": "내추럴"
+        },
+        {
+            "attributeId": 9,
+            "nameKo": "캐주얼"
+        }
+    ],
+    "captionResult": "1. 외피: 드레스 2. 색상: 흰색 검은색 3. 세부: 마네킹은 검은색과 흰색 드레스를 입고 있습니다."
+}

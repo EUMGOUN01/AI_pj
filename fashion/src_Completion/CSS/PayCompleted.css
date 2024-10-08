@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+.pay-comp-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    text-align: center;
+    border: 1px solid #ddd;
+    margin-top: 250px;
+    font-family: "Noto Sans KR", sans-serif;
+  }
+  
+  .pay-comp-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .pay-comp-summary {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #000;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .pay-comp-order-number,
+  .pay-comp-total-price {
+    text-align: left;
+  }
+  
+  .pay-comp-order-value,
+  .pay-comp-price-value {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .pay-comp-info {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 40px;
+  }
+  
+  .pay-comp-buttons {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .pay-comp-main-page-btn,
+  .pay-comp-order-check-btn {
+    width: 48%;
+    padding: 15px;
+    font-size: 16px;
+    margin: 0 10px;
+    border: 1px solid #000;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+  }
+  
+  .pay-comp-main-page-btn:hover,
+  .pay-comp-order-check-btn:hover {
+    background-color: #fff;
+    color: #000;
+  }

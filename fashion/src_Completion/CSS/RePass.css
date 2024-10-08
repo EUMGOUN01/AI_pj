@@ -1,0 +1,78 @@
+.repass-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    background-color: #ffffff;
+}
+
+.repass-box {
+    background-color: #ffffff;
+    border: 1px solid #a7a7a7;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.repass-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.repass-subtitle {
+    font-size: 12px;
+    text-align: center;
+    color: #888888;
+    margin-bottom: 20px;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.repass-form-group {
+    margin-bottom: 15px;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.repass-label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.repass-input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    font-family: "Noto Sans KR", sans-serif;
+}
+
+.repass-submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    font-family: "Noto Sans KR", sans-serif;
+    margin-top: 20px;
+}
+
+.repass-submit-button:hover {
+    background-color: #333;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+    font-family: "Noto Sans KR", sans-serif;
+}

@@ -1,0 +1,130 @@
+[
+    {
+        "productId": "2971",
+        "name": "네파/본사직영 7K82077 여성 아르테 미드 다운 자켓",
+        "info": "네파",
+        "price": 527200,
+        "likeCount": 48,
+        "viewCount": 10,
+        "category": "점퍼",
+        "pimgName": "2971.jpg",
+        "pimgPath": "/images/점퍼/2971.jpg",
+        "attributes": [
+            {
+                "name": "점퍼"
+            },
+            {
+                "name": "서브컬처"
+            },
+            {
+                "name": "컨템포러리"
+            },
+            {
+                "name": "캐주얼"
+            }
+        ],
+        "randomRecommendations": [
+            {
+                "productId": 3022,
+                "name": "Blanc crack leather jumper_Black",
+                "price": 176396,
+                "pimgName": "3022.jpg",
+                "pimgPath": "/images/점퍼/3022.jpg"
+            },
+            {
+                "productId": 2903,
+                "name": "에어 라이트 래글런 윈드브레이커_4color",
+                "price": 54810,
+                "pimgName": "2903.jpg",
+                "pimgPath": "/images/점퍼/2903.jpg"
+            },
+            {
+                "productId": 2982,
+                "name": "페더 텍스쳐 점퍼 WHITE",
+                "price": 117600,
+                "pimgName": "2982.jpg",
+                "pimgPath": "/images/점퍼/2982.jpg"
+            },
+            {
+                "productId": 3029,
+                "name": "UNISEX VEGAN SUEDE HALF JACKET CAMEL_M_UDJA4C110CM",
+                "price": 244550,
+                "pimgName": "3029.jpg",
+                "pimgPath": "/images/점퍼/3029.jpg"
+            },
+            {
+                "productId": 3058,
+                "name": "Leather hooded jumper",
+                "price": 398400,
+                "pimgName": "3058.jpg",
+                "pimgPath": "/images/점퍼/3058.jpg"
+            }
+        ],
+        "quantity": 1,
+        "size": "S"
+    },
+    {
+        "productId": "2644",
+        "name": "70S Suede Bomber Jacket Brown",
+        "info": "디애퍼처",
+        "price": 805000,
+        "likeCount": 6,
+        "viewCount": 19,
+        "category": "재킷",
+        "pimgName": "2644.jpg",
+        "pimgPath": "/images/재킷/2644.jpg",
+        "attributes": [
+            {
+                "name": "내추럴"
+            },
+            {
+                "name": "캐주얼"
+            },
+            {
+                "name": "페미니"
+            },
+            {
+                "name": "재킷"
+            }
+        ],
+        "randomRecommendations": [
+            {
+                "productId": 2723,
+                "name": "CLASSIC OVER TAILORED JACKET_KHAKI",
+                "price": 110264,
+                "pimgName": "2723.jpg",
+                "pimgPath": "/images/재킷/2723.jpg"
+            },
+            {
+                "productId": 2815,
+                "name": "Wool Pea Coat SW2WH809-23",
+                "price": 360050,
+                "pimgName": "2815.jpg",
+                "pimgPath": "/images/재킷/2815.jpg"
+            },
+            {
+                "productId": 2618,
+                "name": "PIGMENT WASHED LEATHER SHORT JACKET_BROWN_LW244JP03BR",
+                "price": 304300,
+                "pimgName": "2618.jpg",
+                "pimgPath": "/images/재킷/2618.jpg"
+            },
+            {
+                "productId": 2776,
+                "name": "Coline Padded Jacket_Khaki",
+                "price": 289000,
+                "pimgName": "2776.jpg",
+                "pimgPath": "/images/재킷/2776.jpg"
+            },
+            {
+                "productId": 2810,
+                "name": "인시전 레이싱 자켓_Olive Shade",
+                "price": 93100,
+                "pimgName": "2810.jpg",
+                "pimgPath": "/images/재킷/2810.jpg"
+            }
+        ],
+        "quantity": 1,
+        "size": "S"
+    }
+]
